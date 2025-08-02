@@ -16,7 +16,7 @@ This capstone project analyses how **wars, armed conflicts, and insecurity** imp
 ## 📊 Dataset
 
 - **Source**: [World Development Report 2011 Dataset](https://datacatalog.worldbank.org/search/dataset/0039027/World-Development-Report-2011)
-- **Data Collection:
+- **Data Collection**:
 ```python
 import pandas as pd
 
