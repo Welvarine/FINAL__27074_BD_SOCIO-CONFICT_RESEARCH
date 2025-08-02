@@ -109,6 +109,18 @@ df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
 **Loading to POWER-BI**
 <img width="1263" height="695" alt="Final_EX1_loadindata" src="https://github.com/user-attachments/assets/b1f03295-b589-4e3c-a47f-d5b88205e418" />
 
+## DRAX Formulas
+
+**Calculation of Military Aid provided by USA**
+```dax
+TotalMilitaryAid = SUM('cleaned_WDR2011_data'[MileduFromUS_USAID])
+
+```
+**Calculation of Battle Death Tolls**
+
+```dax
+TotalDeaths = SUM('cleaned_WDR2011_data'[Cwbattledeaths_PRIO_UCDP])
+```
 
 ## 🌐 Region Code Explanation
 
