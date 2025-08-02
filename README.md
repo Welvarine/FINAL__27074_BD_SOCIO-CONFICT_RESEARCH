@@ -10,8 +10,6 @@ This capstone project analyses how **wars, armed conflicts, and insecurity** imp
 - Measure the **rate and intensity of conflict** globally.
 - Assess how the **rule of law and governance** relate to conflict severity.
 - Identify the **top regions and countries** most affected by conflict.
-- Compare socio-economic progress in **conflict vs non-conflict** nations.
-- Provide visual, data-driven evidence to guide **policy and aid planning**.
 
 ## 📊 Dataset
 
