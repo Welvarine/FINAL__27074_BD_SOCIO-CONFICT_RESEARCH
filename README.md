@@ -16,7 +16,18 @@ This capstone project analyzes how **wars, armed conflicts, and insecurity** imp
 ## 📊 Dataset
 
 - **Source**: [World Development Report 2011 Dataset](https://datacatalog.worldbank.org/search/dataset/0039027/World-Development-Report-2011)
+- **Data Collection:
+```python
+import pandas as pd
+
+# Try with ISO-8859-1 encoding
+df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
+```
 - **Years Analyzed**: 2000–2009
+- ``` python
+  df_recent = df[df['Year'].between(2000, 2009)]
+
+  ```
 - **Shape**: 10,550 rows × 145 columns
 - **Key Data Features**:
   - Battle deaths, conflict intensity (`PRIO_UCDP`)
@@ -53,3 +64,11 @@ This capstone project analyzes how **wars, armed conflicts, and insecurity** imp
 # 'NA'   - North America
 # 'SA'   - South Asia
 # 'SSA'  - Sub-Saharan Africa
+```
+
+```python
+import pandas as pd
+
+# Try with ISO-8859-1 encoding
+df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
+```
