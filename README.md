@@ -99,6 +99,7 @@ df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
 **Top 20 Affected  by Conflict Intensity Countries**
 
 <img width="827" height="471" alt="Top20countries" src="https://github.com/user-attachments/assets/7bc282bf-389b-462b-ae87-0bd0c36a5960" />
+
 **Top 5 Countries with Highest Battle death tolls**
 
 <img width="814" height="528" alt="Top5DeathToll" src="https://github.com/user-attachments/assets/5cab4ada-9294-426a-bb1a-18d8d01d659c" />
