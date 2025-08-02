@@ -121,8 +121,10 @@ TotalMilitaryAid = SUM('cleaned_WDR2011_data'[MileduFromUS_USAID])
 ```dax
 TotalDeaths = SUM('cleaned_WDR2011_data'[Cwbattledeaths_PRIO_UCDP])
 ```
+**The link to the PowerBI(WRD_2011) **
 
 ## 🌐 Region Code Explanation
+-https://drive.google.com/file/d/1NZBAF1CmcnIPCErLQQ8QhKTFwk_xNrRW/view
 
 ```python
 # RegionB Codes (World Bank classification)
