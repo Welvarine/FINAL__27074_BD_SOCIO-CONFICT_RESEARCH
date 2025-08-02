@@ -24,10 +24,6 @@ import pandas as pd
 df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
 ```
 - **Years Analyzed**: 2000–2009
-- ``` python
-  df_recent = df[df['Year'].between(2000, 2009)]
-
-  ```
 - **Shape**: 10,550 rows × 145 columns
 - **Key Data Features**:
   - Battle deaths, conflict intensity (`PRIO_UCDP`)
@@ -39,9 +35,37 @@ df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
 ## 🧼 Data Cleaning Steps
 
 - Filtered dataset to include only **2000–2009** entries.
+  ``` python
+  df_recent = df[df['Year'].between(2000, 2009)]
+
+  ```
 - Selected relevant columns for conflict and governance analysis.
+  ```python
+  # Keep rows of battle deaths or war intensity
+  df_focus_clean = df_focus.dropna(subset=[
+    'Cwbattledeaths_PRIO_UCDP',
+    'CWintensity_PRIO_UCDP'
+  ])
+  selected_columns = [
+    'Country', 'Countrycode', 'Year', 'RegionA', 'RegionB',
+    'Cwbattledeaths_PRIO_UCDP',
+    'CWintensity_PRIO_UCDP',
+    'CWtype_PRIO_UCDP',
+    'OnesidedStatec_UCDP',
+    'OnesidedNonstate_UCDP',
+    'Ruleoflaw_WGI',
+    'MileduFromUS_USAID'
+  ]
+
+  
+  ```
 - Handled missing values and created binary indicators (e.g., `Missing_RuleofLaw`).
-- Created `ConflictStatus` column to classify countries.
+ ``` python
+  df_focus_clean['Ruleoflaw_WGI'] = df_focus_clean['Ruleoflaw_WGI'].fillna(0)
+  df_focus_clean['MileduFromUS_USAID'] = df_focus_clean['MileduFromUS_USAID'].fillna(0)
+
+  ```
+-Checked the if the the data had missing values
 
 ## 📈 Visualizations & Insights
 
