@@ -139,9 +139,9 @@ TotalDeaths = SUM('cleaned_WDR2011_data'[Cwbattledeaths_PRIO_UCDP])
 # 'SSA'  - Sub-Saharan Africa
 ```
 
-```python
-import pandas as pd
+##Conclusion
+The research conducted using the WDR_2011 dataset offers valuable insights into the impact of wars and conflicts between 2000 and 2009. Through the analysis, we identified regions and countries most affected by battle-related deaths and observed correlations between conflict intensity and governance indicators such as the Rule of Law.
 
-# Try with ISO-8859-1 encoding
-df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
-```
+While the dataset had limitations—particularly in areas like starvation, gender-based violence, displacement, or child abuse—our findings still highlight the critical role of effective governance, stability, and conflict resolution in mitigating human suffering.
+
+Despite being a focused and small-scale study, the project confirms the urgent need for evidence-based interventions, peacebuilding efforts, and targeted development aid, especially in high-conflict zones. This foundational work can inform deeper research and policymaking aimed at reducing violence and promoting sustainable peace.
