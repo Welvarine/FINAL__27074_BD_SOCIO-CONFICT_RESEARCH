@@ -75,7 +75,7 @@ df_focus_clean.isnull().sum()
 <img width="262" height="286" alt="checking_null" src="https://github.com/user-attachments/assets/e8902230-0c83-4f21-af11-a6c78794265b" />
 
 
-##Loading the cleaned data set 
+## Loading the cleaned data set 
   ```python
 df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
   ```
