@@ -88,25 +88,25 @@ df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
 | ⚖️ Rule of Law vs Conflict Intensity | Examine correlation between governance & the conflict Intensity |
 | 🗺️ Top 20 Affected Countries      | Identify countries with highest battle deaths|
 
-**Battles Deaths, Region**
+## Battles Deaths, Region
 
 <img width="810" height="528" alt="BattlevsYear" src="https://github.com/user-attachments/assets/e6e3fe4d-f1a5-402c-a782-6689d9168f28" />
 
-**Rule of Law, Conflict Intensity**
+## Rule of Law, Conflict Intensity
 
 <img width="829" height="545" alt="RulevsConflictIntensity" src="https://github.com/user-attachments/assets/6f393221-d5f7-4471-8f36-67e562f37043" />
 
-**Top 20 Affected  by Conflict Intensity Countries**
+## Top 20 Affected  by Conflict Intensity Countries
 
 <img width="827" height="471" alt="Top20countries" src="https://github.com/user-attachments/assets/7bc282bf-389b-462b-ae87-0bd0c36a5960" />
 
-**Top 5 Countries with Highest Battle death tolls**
+## Top 5 Countries with Highest Battle death tolls**
 
 <img width="814" height="528" alt="Top5DeathToll" src="https://github.com/user-attachments/assets/5cab4ada-9294-426a-bb1a-18d8d01d659c" />
 
 ## Link to the Power BI Dashboard
 
-** Loading to POWER-BI **
+**Loading to POWER-BI**
 <img width="1263" height="695" alt="Final_EX1_loadindata" src="https://github.com/user-attachments/assets/b1f03295-b589-4e3c-a47f-d5b88205e418" />
 
 
