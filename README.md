@@ -104,6 +104,12 @@ df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
 
 <img width="814" height="528" alt="Top5DeathToll" src="https://github.com/user-attachments/assets/5cab4ada-9294-426a-bb1a-18d8d01d659c" />
 
+## Link to the Power BI Dashboard
+
+** Loading to POWER-BI **
+<img width="1263" height="695" alt="Final_EX1_loadindata" src="https://github.com/user-attachments/assets/b1f03295-b589-4e3c-a47f-d5b88205e418" />
+
+
 ## 🌐 Region Code Explanation
 
 ```python
