@@ -3,12 +3,12 @@
 
 ## 📘 Project Overview
 
-This capstone project analyzes how **wars, armed conflicts, and insecurity** impacted global security and **socio-economic progress** during the decade **2000 to 2009**. Using a comprehensive dataset from the World Bank, we investigate the relationship between violence, governance, aid distribution, and development across regions and countries.
+This capstone project analyses how **wars, armed conflicts, and insecurity** impacted global security and **socio-economic progress** during the decade **2000 to 2009**. Using a comprehensive dataset from the World Bank, we investigate the relationship between violence, governance, aid distribution, and development across regions and countries.
 
 ## 🎯 Research Objectives
 
 - Measure the **rate and intensity of conflict** globally.
-- Assess how **rule of law and governance** relate to conflict severity.
+- Assess how the **rule of law and governance** relate to conflict severity.
 - Identify the **top regions and countries** most affected by conflict.
 - Compare socio-economic progress in **conflict vs non-conflict** nations.
 - Provide visual, data-driven evidence to guide **policy and aid planning**.
@@ -31,6 +31,8 @@ df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
   - Governance indicators (`Ruleoflaw_WGI`)
   - Aid flows (`MileduFromUS_USAID`)
   - Regional and country identifiers
+<img width="1039" height="178" alt="Final_EX1_rowsandcolumnsPNG" src="https://github.com/user-attachments/assets/4e22c70b-090a-46b4-b663-50bc59b91462" />
+
 
 ## 🧼 Data Cleaning Steps
 
@@ -59,13 +61,24 @@ df = pd.read_csv("WDR2011.csv", encoding='ISO-8859-1')
 
   
   ```
-- Handled missing values and created binary indicators (e.g., `Missing_RuleofLaw`).
+## Handled missing values and created binary indicators (e.g., `Missing_RuleofLaw`).
  ``` python
   df_focus_clean['Ruleoflaw_WGI'] = df_focus_clean['Ruleoflaw_WGI'].fillna(0)
   df_focus_clean['MileduFromUS_USAID'] = df_focus_clean['MileduFromUS_USAID'].fillna(0)
 
   ```
--Checked the if the the data had missing values
+## Checked if the data had missing values
+```python
+df_focus_clean.isnull().sum()
+
+```
+<img width="262" height="286" alt="checking_null" src="https://github.com/user-attachments/assets/e8902230-0c83-4f21-af11-a6c78794265b" />
+
+
+##Loading the cleaned data set 
+  ```python
+df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
+  ```
 
 ## 📈 Visualizations & Insights
 
