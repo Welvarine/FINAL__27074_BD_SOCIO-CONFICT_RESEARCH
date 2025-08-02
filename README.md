@@ -100,7 +100,7 @@ df_focus_clean.to_csv("cleaned_WDR2011_data.csv", index=False)
 
 <img width="827" height="471" alt="Top20countries" src="https://github.com/user-attachments/assets/7bc282bf-389b-462b-ae87-0bd0c36a5960" />
 
-## Top 5 Countries with Highest Battle death tolls**
+## Top 5 Countries with Highest Battle death tolls
 
 <img width="814" height="528" alt="Top5DeathToll" src="https://github.com/user-attachments/assets/5cab4ada-9294-426a-bb1a-18d8d01d659c" />
 
@@ -139,7 +139,8 @@ TotalDeaths = SUM('cleaned_WDR2011_data'[Cwbattledeaths_PRIO_UCDP])
 # 'SSA'  - Sub-Saharan Africa
 ```
 
-##Conclusion
+## Conclusion
+
 The research conducted using the WDR_2011 dataset offers valuable insights into the impact of wars and conflicts between 2000 and 2009. Through the analysis, we identified regions and countries most affected by battle-related deaths and observed correlations between conflict intensity and governance indicators such as the Rule of Law.
 
 While the dataset had limitations—particularly in areas like starvation, gender-based violence, displacement, or child abuse—our findings still highlight the critical role of effective governance, stability, and conflict resolution in mitigating human suffering.
